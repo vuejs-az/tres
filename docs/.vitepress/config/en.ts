@@ -117,7 +117,7 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             link: 'https://play.tresjs.org/',
           },
           {
-            text: 'Github',
+            text: 'GitHub',
             link: 'https://github.com/Tresjs/tres/',
           },
           {
@@ -144,5 +144,36 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         ],
       },
     ],
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          root: {
+            translations: {
+              button: {
+                buttonText: 'Search',
+                buttonAriaLabel: 'Search',
+              },
+              modal: {
+                displayDetails: 'Display detailed list',
+                resetButtonTitle: 'Reset search',
+                backButtonTitle: 'Close search',
+                noResultsText: 'No results for',
+                footer: {
+                  selectText: 'to select',
+                  selectKeyAriaLabel: 'enter',
+                  navigateText: 'to navigate',
+                  navigateUpKeyAriaLabel: 'up arrow',
+                  navigateDownKeyAriaLabel: 'down arrow',
+                  closeText: 'to close',
+                  closeKeyAriaLabel: 'escape',
+                },
+              },
+            },
+          },
+
+        },
+      },
+    },
   },
 }

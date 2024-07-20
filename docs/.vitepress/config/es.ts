@@ -118,7 +118,7 @@ export const esConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             link: 'https://play.tresjs.org/',
           },
           {
-            text: 'Github',
+            text: 'GitHub',
             link: 'https://github.com/Tresjs/tres/',
           },
           {

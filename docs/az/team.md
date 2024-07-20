@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Meet the Team
-description: The TresJS ecosystem is develop and maintain by a global team..
+title: Komandamızla Tanış Olun
+description: TresJS ekosistemi qlobal bir komanda tərəfindən yaradılır və qorunur.
 ---
 
 <script setup>
@@ -16,9 +16,9 @@ import { core } from './_data/team'
 
 <VPTeamPage>
   <VPTeamPageTitle>
-    <template #title>Meet the Team</template>
+    <template #title>Komandamızla Tanış Olun</template>
     <template #lead>
-      The TresJS ecosystem is develop and maintain by a global team.
+      TresJS ekosistemi qlobal bir komanda tərəfindən yaradılır və qorunur.
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers :members="core" />

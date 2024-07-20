@@ -116,7 +116,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             link: 'https://play.tresjs.org/',
           },
           {
-            text: 'Github',
+            text: 'GitHub',
             link: 'https://github.com/Tresjs/tres/',
           },
           {
@@ -173,15 +173,16 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         },
       },
     },
-    darkModeSwitchLabel: '外观',
-    sidebarMenuLabel: '菜单',
-    returnToTopLabel: '返回顶部',
-    langMenuLabel: '更改语言',
-    lastUpdatedText: '最近更新',
-    outlineTitle: '此页面上',
+    outline: {
+      label: '此页面上',
+    },
     docFooter: {
       next: '下一页',
       prev: '上一页',
     },
+    darkModeSwitchLabel: '外观',
+    sidebarMenuLabel: '菜单',
+    returnToTopLabel: '返回顶部',
+    langMenuLabel: '更改语言',
   },
 }

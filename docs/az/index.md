@@ -2,36 +2,36 @@
 layout: home
 
 title: TresJS
-titleTemplate: The solution for 3D on VueJS
+titleTemplate: VueJS üçün 3D aləti
 
 hero:
   name: TresJS
-  text: Bring Three to the Vue ecosystem
-  tagline: Create awesome 3D experiences with the framework you love.
+  text: Three-ni Vue ekosisteminə gətirin
+  tagline: Sevdiyiniz freymvork ilə möhtəşəm 3D təcrübələri yaradın.
   image:
     src: /hero.png
     alt: Tresjs
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide/
+      text: Başlayın
+      link: /az/guide/
     - theme: alt
-      text: Why Tres?
-      link: /guide/#motivation
+      text: Niyə Tres?
+      link: /az/guide/#motivation
     - theme: egghead-cta
-      text: Egghead.io Course
+      text: Egghead.io Kursu
       link: https://egghead.io/courses/create-interactive-3d-experiences-with-tresjs-004057c2
 features:
   - icon: 💡
-    title: Declarative
-    details: Build 3D scene as they were Vue components.
+    title: Deklarativ
+    details: Vue komponentləri ilə üçölçülü səhnələr yaradın.
   - icon: ⚡️
-    title: Powered by Vite
-    details: Hot Module Replacement (HMR) that stays fast regardless of app size.
+    title: Vite-dən güc alır
+    details: İsti Modul Əvəzetməsi (HMR) tətbiqin ölçüsündən asılı olmayaraq daim sürətli qalır.
   - icon: 🥰
-    title: Keeps up to date
-    details: It brings all the updated features of ThreeJS right away.
+    title: Daim yeni
+    details: ThreeJS-in ən yeni xüsusiyyətlərini özündə ehtiva edir.
   - icon: 🌳
-    title: Ecosystem
-    details: Extend the core functionality with packages like `cientos` and `postprocessing`. Or add your own.
+    title: Ekosistem
+    details: `cientos` və `postprocessing` kimi paketlərdən istifadə edərək özülü aşıb keçin. Yaxud öz paketinizdən istifadə edin.
 ---
